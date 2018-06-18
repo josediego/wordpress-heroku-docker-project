@@ -58,7 +58,8 @@ services:
       - mysql
 
   mysql:
-    image: mysql:latest
+    # image: mysql:latest
+    image: mysql:5.7
     volumes:
       - mysqldata:/var/lib/mysql
     ports:

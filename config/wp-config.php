@@ -101,6 +101,7 @@ define( 'AUTOMATIC_UPDATER_DISABLED', true );
 define( 'DISABLE_WP_CRON', env( 'DISABLE_WP_CRON' ) ?: false );
 define( 'DISALLOW_FILE_EDIT', true );
 define( 'FS_METHOD', 'direct' );
+define( 'WP_CONTENT_DIR', $webroot_dir . '/wp-content' );
 
 /**
  * Only keep the last 30 revisions of a post. Having hundreds of revisions of
